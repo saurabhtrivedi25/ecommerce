@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+}
+.navbar h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(47, 7, 10);
+}
+.navbar h1:hover {
+  color: red;
+  cursor: pointer;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul a {
+  text-decoration: none;
+}
+.navbar ul a li {
+  list-style: none;
+  padding: 0 0.5rem;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.navbar ul a li:hover {
+  cursor: pointer;
+  color: rgb(219, 55, 55);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 10rem;
+  width: 70%;
+}
+.hero form {
+  width: 90%;
+  margin-left: 10rem;
+}
+.hero form input {
+  width: 60%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.hero form input:focus {
+  outline: 1px solid black;
+}
+.hero form button {
+  padding: 0.6rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  background-color: rgb(225, 221, 216);
+}
+.hero form button:hover {
+  cursor: pointer;
+}
+
+.categories, .fashion, .electronics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5rem 0;
+}
+.categories .heading, .fashion .heading, .electronics .heading {
+  position: absolute;
+  margin-top: -19rem;
+  padding: 0.3rem;
+  background-color: rgb(206, 216, 216);
+  border-radius: 5px;
+}
+.categories div, .fashion div, .electronics div {
+  height: 15rem;
+  background-color: rgb(206, 216, 216);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.categories div a, .fashion div a, .electronics div a {
+  color: black;
+  text-decoration: none;
+}
+.categories div a:hover, .fashion div a:hover, .electronics div a:hover {
+  color: blue;
+}
+.categories div img, .fashion div img, .electronics div img {
+  border-radius: 5px;
+}
+
+.footer {
+  height: 12rem;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer div {
+  margin: 2rem 5rem;
+  font-size: 1.5rem;
+}
+.footer div h1 {
+  margin-bottom: 0.3rem;
+}
+.footer .socials i {
+  font-size: 2.5rem;
+  color: rgb(76, 76, 246);
+  margin: 0.3rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
